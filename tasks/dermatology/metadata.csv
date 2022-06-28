@@ -1,0 +1,25 @@
+,image_name,patient_id,sex,age_approx,anatom_site_general_challenge,diagnosis,benign_malignant,target,human-ai-dataset-map
+0,ISIC_0113820,IP_0660290,male,60.0,lower extremity,unknown,benign,0,dermatology-benign-1
+2,ISIC_1912757,IP_2189124,male,40.0,head/neck,unknown,benign,0,dermatology-benign-2
+4,ISIC_2987677,IP_6342052,male,65.0,torso,unknown,benign,0,dermatology-benign-3
+5,ISIC_4119445,IP_9826072,male,70.0,torso,unknown,benign,0,dermatology-benign-4
+6,ISIC_5527572,IP_6601134,female,55.0,torso,unknown,benign,0,dermatology-benign-5
+7,ISIC_5713942,IP_4879325,female,55.0,head/neck,unknown,benign,0,dermatology-benign-6
+8,ISIC_5780588,IP_7829228,female,45.0,lower extremity,unknown,benign,0,dermatology-benign-7
+10,ISIC_7653121,IP_5805281,male,50.0,torso,unknown,benign,0,dermatology-benign-8
+12,ISIC_8353090,IP_1567348,male,70.0,lower extremity,unknown,benign,0,dermatology-benign-9
+13,ISIC_8370239,IP_0536839,female,80.0,torso,unknown,benign,0,dermatology-benign-10
+14,ISIC_8774880,IP_9087899,male,40.0,upper extremity,unknown,benign,0,dermatology-benign-11
+15,ISIC_9750576,IP_8041141,female,20.0,lower extremity,unknown,benign,0,dermatology-benign-12
+16,ISIC_0149568,IP_0962375,female,55.0,upper extremity,melanoma,malignant,1,dermatology-malignant-1
+17,ISIC_0572205,IP_6614604,male,20.0,torso,melanoma,malignant,1,dermatology-malignant-2
+18,ISIC_1356715,IP_6940325,female,30.0,torso,melanoma,malignant,1,dermatology-malignant-3
+20,ISIC_1834920,IP_5370714,female,70.0,torso,melanoma,malignant,1,dermatology-malignant-4
+21,ISIC_2153686,IP_7373371,female,55.0,upper extremity,melanoma,malignant,1,dermatology-malignant-5
+22,ISIC_3561065,IP_1495267,female,75.0,upper extremity,melanoma,malignant,1,dermatology-malignant-6
+23,ISIC_3738751,IP_0274810,male,60.0,torso,melanoma,malignant,1,dermatology-malignant-7
+24,ISIC_4936662,IP_0777867,female,45.0,upper extremity,melanoma,malignant,1,dermatology-malignant-8
+25,ISIC_6392461,IP_9153938,male,70.0,upper extremity,melanoma,malignant,1,dermatology-malignant-9
+26,ISIC_6785680,IP_8171851,female,55.0,torso,melanoma,malignant,1,dermatology-malignant-10
+30,ISIC_8450656,IP_7779275,female,30.0,palms/soles,melanoma,malignant,1,dermatology-malignant-11
+31,ISIC_8672524,IP_7373371,female,55.0,torso,melanoma,malignant,1,dermatology-malignant-12

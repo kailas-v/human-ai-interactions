@@ -1,0 +1,27 @@
+,column_name,column_values,column_description
+0,task_name,"{art, cities, sarcasm, census, dermatology}",The name of the task the participant completes.
+1,task_instance_id,[1-32],ID for the task instance.
+2,path_to_task,,Path to task instance data.
+3,correct_label,,The true label of the task instance.
+4,incorrect_label,,The incorrect label the participant sees for this task instance.
+5,order_appearing_in_survey,[1-32],Where this task instance appears in the survey.
+6,advice_source,"{human, ai}",Where the participant perceives the advice to come from.
+7,advice,"[-1,1]",Value of the advice recieved by the participant. >0 indicates advice selected the correct label. <0 indicates advice selected the incorrect label.
+8,participant_id,,Unique identifier for the participant.
+9,response_1,"[-1,1]",Initial response from the participant (before advice). >0 indicates advice selected the correct label. <0 indicates advice selected the incorrect label.
+10,response_2,"[-1,1]",Final response from the participant (after advice). >0 indicates advice selected the correct label. <0 indicates advice selected the incorrect label.
+11,survey_q1_perceived_advice_accuracy,"[0,100]",Survey Q1 -- perceived accuracy of advice (manipulation check 2).
+12,survey_q2_helpfulness_of_advice,"[0,1]",Survey Q2 -- perceived helpfulness of the advice. (0=not helpful; 1=very helpful)
+13,survey_q3_trust_in_advice,"[0,1]",Survey Q3 -- how much does the participant trust the advice. (0=no trust; 1=much trust)
+14,survey_q4_prefers_human_or_AI,"[-1,1]",Survey Q4 -- is a person or AI better at the task. (<0=person; >0=AI)
+15,survey_q5_AI_in_life,"[0,1]",Survey Q5 -- how much does the person use AI in their life. (0=never; 1=very often)
+16,geographic_region,,Where the participant is geographically located.
+17,education,"[1,8]",Highest education level achieved.
+18,education_description,,Highest education level achieved (described).
+19,gender,"{male, female, other/unknown}",Participant's gender.
+20,age,[18-81],Participant's age.
+21,programming_experience,"{True, False}",Does participant have programming experience.
+22,socioeconomic_status,"[1,10]",Socioeconomic status of participant.
+23,years_of_experience,[0-33],For dermatologist experts -- years of experience after medical school.
+24,job_title,"{attending, attending_certified, resident, trainee}",For dermatologist experts -- current job title.
+25,perceived_accuracy,"{65, 80, 95}",The accuracy level of the advice that is stated to the participants. (It does not necessarily reflect the true accuracy level.)

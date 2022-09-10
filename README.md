@@ -74,10 +74,11 @@ The dataset contains the following information:
 ## Citation
 If you find this work useful or use this dataset in your research, please cite:
 ```
-@article{vodrahalli2022humans,
-  title={Do Humans Trust Advice More if it Comes from AI? An Analysis of Human-AI Interactions},
+@inproceedings{vodrahalli2022humans,
+  title={Do humans trust advice more if it comes from ai? an analysis of human-ai interactions},
   author={Vodrahalli, Kailas and Daneshjou, Roxana and Gerstenberg, Tobias and Zou, James},
-  journal={arXiv preprint arXiv:2107.07015},
+  booktitle={Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society},
+  pages={763--777},
   year={2022}
 }
 ```

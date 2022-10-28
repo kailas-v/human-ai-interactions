@@ -34,7 +34,7 @@ import haiid
 df = haiid.load_dataset()
 # look at the dermatology task subset
 derm_task = haiid.load_task(df, 'dermatology')
-# get the activation rate for the dermatology task, averaging across each particiapnt individually
+# get the activation rate for the dermatology task, averaging across each participant individually
 derm_activation_rate = haiid.activation_rate(derm_task, 'participant_id')
 ```
 

@@ -1,7 +1,7 @@
 # Human-AI Interactions Dataset
 
 ## Overview
-This repo provides access to our dataset of over 36,000 Human-AI interactions. 
+This repo provides access to our dataset of over 30,000 Human-AI interactions. 
 We recruited crowdworkers and expert dermatologists and asked them to perform a variety of binary classification tasks. 
 Participants gave two responses -- their initial impression after seeing the task, and their response after being presented with some "advice." 
 This advice was presented as coming from either a human peer or an AI algorithm.
@@ -53,8 +53,8 @@ The dataset contains the following information:
 | advice_source | {human, ai} | Where the participant perceives the advice to come from. |
 | advice | [-1,1] | Value of the advice recieved by the participant. >0 indicates advice selected the correct label. <0 indicates advice selected the incorrect label. |
 | participant_id |  | Unique identifier for the participant. |
-| response_1 | [-1,1] | Initial response from the participant (before advice). >0 indicates advice selected the correct label. <0 indicates advice selected the incorrect label. |
-| response_2 | [-1,1] | Final response from the participant (after advice). >0 indicates advice selected the correct label. <0 indicates advice selected the incorrect label. |
+| response_1 | [-1,1] | Initial response from the participant (before advice). >0 indicates response selected the correct label. <0 indicates response selected the incorrect label. |
+| response_2 | [-1,1] | Final response from the participant (after advice). >0 indicates response selected the correct label. <0 indicates response selected the incorrect label. |
 | survey_q1_perceived_advice_accuracy | [0,100] | Survey Q1 -- perceived accuracy of advice (manipulation check 2). |
 | survey_q2_helpfulness_of_advice | [0,1] | Survey Q2 -- perceived helpfulness of the advice. (0=not helpful; 1=very helpful) |
 | survey_q3_trust_in_advice | [0,1] | Survey Q3 -- how much does the participant trust the advice. (0=no trust; 1=much trust) |

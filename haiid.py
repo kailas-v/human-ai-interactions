@@ -14,7 +14,7 @@ import pandas as pd
 def load_dataset(path="."):
     """Load the HAIID dataset."""
     dataset_path = os.path.join(path, "haiid_dataset.csv")
-    return pd.read_csv(dataset_path, index_col=[0], dtype={'job_title':str})
+    return pd.read_csv(dataset_path, dtype={'job_title':str})
 
 def load_tasks(haiid, task_name, drop_unused=True):
     """Load a subset of the HAIID tasks."""
